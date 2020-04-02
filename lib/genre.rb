@@ -22,6 +22,7 @@ class Genre
     Song.all.select {|song| song.genre == self}
   end
 
+  # Return all artists associated with this Genre
   def artists
     artists = []
     songs.each do |song|
