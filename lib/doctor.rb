@@ -17,6 +17,7 @@ class Doctor
     @@all
   end
 
+  # Returns all appointments associated with this Doctor
   def appointments
     Appointment.all.select {|appt| appt.doctor == self}
   end
