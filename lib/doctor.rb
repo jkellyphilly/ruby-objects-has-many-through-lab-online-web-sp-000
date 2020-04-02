@@ -9,4 +9,8 @@ class Doctor
     save
   end
 
+  def save
+
+  end
+
 end
