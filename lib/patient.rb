@@ -19,7 +19,7 @@ class Patient
 
   # Creates a new appointment given a doctor and a date
   def new_appointment(doctor, date)
-
+    Appointment.new(date, self, doctor)
   end
 
   # Returns all appointments associated with this Patient
