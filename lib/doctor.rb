@@ -1,7 +1,9 @@
 class Doctor
 
-  def initialize(name)
+  @@all = []
 
+  def initialize(name)
+    @name = name
   end
 
 end
