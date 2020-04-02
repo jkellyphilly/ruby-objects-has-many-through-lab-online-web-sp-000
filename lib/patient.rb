@@ -29,7 +29,11 @@ class Patient
 
   # Returns all doctors associated with this Patient
   def doctors
-
+    doctors = []
+    appointments.each do |appt|
+      doctors << appt.doctor if !doctors.include?(appt.doctor)
+    end
+    my_patients
   end
 
 end
