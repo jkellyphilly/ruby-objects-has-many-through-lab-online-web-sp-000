@@ -27,6 +27,7 @@ class Artist
     Song.new(name, self, genre)
   end
 
+  # Return all genres associated with that Artist
   def genres
     genres = []
     songs.each do |song|
