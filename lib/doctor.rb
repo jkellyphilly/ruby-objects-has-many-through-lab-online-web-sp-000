@@ -32,14 +32,14 @@ class Doctor
 
   def patients
     my_patients = []
-    binding.pry
+    #binding.pry
     appointments.each do |appt|
-      binding.pry
+      #binding.pry
       my_patients << appt.patient if !my_patients.include?(appt.patient)
-      binding.pry
+      #binding.pry
     end
     my_patients
-    binding.pry
+    #binding.pry
   end
 
 end
