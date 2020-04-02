@@ -17,6 +17,7 @@ class Patient
     @@all
   end
 
+  # Creates a new appointment given a doctor and a date
   def new_appointment(doctor, date)
 
   end
