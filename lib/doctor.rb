@@ -29,7 +29,7 @@ class Doctor
   end
 
   def patients
-
+    my_patients = []
   end
 
 end
