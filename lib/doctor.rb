@@ -31,7 +31,7 @@ class Doctor
   def patients
     my_patients = []
     appointments.each do |appt|
-
+      my_patients << appt.patient if !my_patients.include?(appt.patient)
     end
   end
 
