@@ -30,6 +30,9 @@ class Doctor
 
   def patients
     my_patients = []
+    appointments.each do |appt|
+
+    end
   end
 
 end
