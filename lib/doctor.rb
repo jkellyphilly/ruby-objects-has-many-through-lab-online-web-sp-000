@@ -22,6 +22,8 @@ class Doctor
     Appointment.all.select {|appt| appt.doctor == self}
   end
 
+  # Creates a new appointment for the Doctor, given a 
+  # patient and a date
   def new_appointment(date, patient)
     Appointment.new(date, patient, self)
   end
