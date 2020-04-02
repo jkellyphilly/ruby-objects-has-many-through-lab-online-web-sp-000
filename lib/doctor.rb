@@ -26,7 +26,7 @@ class Doctor
 
   # Creates a new appointment for the Doctor, given a
   # patient and a date
-  def new_appointment(date, patient)
+  def new_appointment(patient, date)
     Appointment.new(date, patient, self)
   end
 
