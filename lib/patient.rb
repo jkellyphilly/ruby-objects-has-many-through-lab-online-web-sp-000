@@ -21,10 +21,12 @@ class Patient
 
   end
 
+  # Returns all appointments associated with this Patient
   def appointments
 
   end
 
+  # Returns all doctors associated with this Patient
   def doctors
 
   end
